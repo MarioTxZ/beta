@@ -1,0 +1,205 @@
+# Creado por https://www.toptal.com/developers/gitignore/api/node
+# Editar en https://www.toptal.com/developers/gitignore?templates=node
+
+### Nodo ###
+# Registros
+registros
+*.registro
+Registro de depuración de npm
+registro de depuración de hilo*
+error de hilo.log*
+archivo lerna-debug.log*
+.pnpm-debug.log*
+
+# Informes de diagnóstico (https://nodejs.org/api/report.html)
+informe.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Datos de tiempo de ejecución
+pids
+*.pid
+*.semilla
+*.pid.bloqueo
+
+# Directorio para bibliotecas instrumentadas generadas por jscoverage/JSCover
+lib-cov
+
+# Directorio de cobertura utilizado por herramientas como Estambul
+cobertura
+*.lcov
+
+#Cobertura de pruebas de Nueva York
+Salida .nyc
+
+# Almacenamiento intermedio de Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.gruñido
+
+# Directorio de dependencias de Bower (https://bower.io/)
+componentes de bower
+
+# configuración de node-waf
+.bloqueo-wscript
+
+# Complementos binarios compilados (https://nodejs.org/api/addons.html)
+construir/lanzar
+
+# Directorios de dependencia
+módulos_de_nodo/
+paquetes jspm/
+
+# Directorio de dependencias de Snowpack (https://snowpack.dev/)
+módulos_web/
+
+# Caché de TypeScript
+*.tsbuildinfo
+
+# Directorio de caché npm opcional
+.npm
+
+# Caché eslint opcional
+.eslintcache
+
+# Caché de estilo opcional
+.stylelintcache
+
+# Caché de micropaquetes
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Historial REPL opcional
+Historial de respuestas de nodo .node
+
+# Salida de 'npm pack'
+*.tgz
+
+# Archivo de integridad del hilo
+.integridad del hilo
+
+# Archivos de variables de entorno dotenv
+.env
+.env.desarrollo.local
+.env.prueba.local
+.env.producción.local
+.env.local
+
+# caché de paquetes empaquetados (https://parceljs.org/)
+.cache
+.paquete-cache
+
+# Salida de la compilación de Next.js
+.próximo
+afuera
+
+# Creación y generación de salida de Nuxt.js
+.nuxt
+distribución
+
+# Archivos de Gatsby
+.cache/
+# Comenta en la línea pública si tu proyecto usa Gatsby y no Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# público
+
+# Salida de compilación de vuepress
+.vuepress/dist
+
+# Directorio temporal y de caché de vuepress v2.x
+.temperatura
+
+# Caché de Docusaurus y archivos generados
+.docusaurus
+
+# Directorios sin servidor
+.sin servidor/
+
+# Caché de FuseBox
+.caja de fusibles/
+
+# Archivos locales de DynamoDB
+.dynamodb/
+
+# Archivo de puerto TernJS
+.tern-puerto
+
+# Almacena versiones de VSCode utilizadas para probar extensiones de VSCode
+Prueba .vscode
+
+# hilo v2
+.hilo/caché
+.hilo/desenchufado
+.yarn/build-state.yml
+.yarn/estado-de-instalación.gz
+.pnp.*
+
+### Parche de nodo ###
+# Directorios Webpack sin servidor
+.paquete web/
+
+# Caché de estilo opcional
+
+# SvelteKit compilación / generación de salida
+.kit esbelto
+
+# Fin de https://www.toptal.com/developers/gitignore/api/node
+
+# Creado por https://www.toptal.com/developers/gitignore/api/laravel
+# Editar en https://www.toptal.com/developers/gitignore?templates=laravel
+
+### Laravel ###
+/proveedor/
+módulos_de_nodo/
+registro npm-debug
+error de hilo.log
+
+# Específico de Laravel 4
+bootstrap/compilado.php
+aplicación/almacenamiento/
+
+# Específico para Laravel 5 y Lumen
+público/almacenamiento
+público/caliente
+
+# Laravel 5 y Lumen específico con ruta pública modificada
+public_html/almacenamiento
+público_html/caliente
+
+almacenamiento/*.clave
+.env
+Finca.yaml
+Finca.json
+/.vagabundo
+.phpunit.result.cache
+
+# Fin de https://www.toptal.com/developers/gitignore/api/laravel
+
+# Creado por https://www.toptal.com/developers/gitignore/api/windows
+# Editar en https://www.toptal.com/developers/gitignore?templates=windows
+
+### Ventanas ###
+# Archivos de caché de miniaturas de Windows
+Pulgares.db
+Thumbs.db: encriptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Archivo de volcado
+*.dump de pila
+
+# Archivo de configuración de carpeta
+[Dd]esktop.ini
+
+# Papelera de reciclaje utilizada en recursos compartidos de archivos
+$PAPELETO DE RECICLAJE/
+
+# Archivos del instalador de Windows
+*.taxi
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Atajos de Windows
+*.lnk
+
+# Fin de https://www.toptal.com/developers/gitignore/api/windows
